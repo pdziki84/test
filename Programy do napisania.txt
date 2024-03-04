@@ -1,0 +1,141 @@
+Sprawdź swoje umiejętności
+1. Napisz program, który symuluje ciasteczko z wróżbą. Program powinien
+wyświetlić jedną z pięciu niepowtarzalnych przepowiedni, dokonując losowego
+wyboru przy każdym uruchomieniu.
+
+2. Napisz program, który „rzuca” 100 razy monetą, a następnie podaje
+użytkownikowi liczbę orzełków i reszek.
+
+3. Zmodyfikuj program Jaka to liczba? tak, aby gracz dysponował ograniczoną
+liczbą prób odgadnięcia wybranej przez komputer liczby. Gdy graczowi nie uda
+się odgadnąć tej liczby w wyznaczonej liczbie prób, program powinien
+wyświetlić odpowiedni komunikat z reprymendą.
+
+4. Tym razem trudniejsze wyzwanie. Napisz pseudokod do programu, w którym
+gracz i komputer zamienią się rolami w grze z odgadywaniem liczby. To znaczy
+gracz wybiera losowo liczbę z przedziału od 1 do 100, a komputer ma ją
+odgadnąć. Zanim rozpoczniesz tworzenie algorytmu, pomyśl, w jaki sposób
+sam byś zgadywał. Jeśli wszystko się uda, spróbuj napisać kod gry.
+
+1. Napisz program, który liczy za użytkownika. Umożliw użytkownikowi
+wprowadzenie liczby początkowej, liczby końcowej i wielkości odstępu między
+kolejnymi liczbami.
+
+2. Utwórz program, który wczytuje komunikat użytkownika, a następnie wypisuje
+go w odwrotnej kolejności.
+
+3. Popraw program Wymieszane litery tak, żeby każdemu słowu towarzyszyła
+podpowiedź. Gracz powinien mieć możliwość zobaczenia podpowiedzi, jeśli
+utknie w martwym punkcie. Dodaj system punktacji, który nagradza graczy
+rozwiązujących anagram bez uciekania się do podpowiedzi.
+
+4. Utwórz grę, w której komputer wybiera losowo słowo, które gracz musi
+odgadnąć. Komputer informuje gracza, ile liter znajduje się w wybranym
+słowie. Następnie gracz otrzymuje pięć szans na zadanie pytania, czy jakaś litera
+jest zawarta w tym słowie. Komputer może odpowiedzieć tylko „tak” lub „nie”.
+Potem gracz musi odgadnąć słowo.
+
+
+1. Utwórz program, który wypisuje listę słów w przypadkowej kolejności.
+Program powinien wypisać wszystkie słowa bez żadnych powtórzeń.
+2. Napisz program Kreator postaci do gry z podziałem na role. Gracz powinien
+otrzymać pulę 30 punktów, którą może spożytkować na cztery atrybuty: siła,
+zdrowie, mądrość i zręczność. Gracz powinien mieć możliwość przeznaczania
+punktów z puli na dowolny atrybut, jak również możliwość odbierania
+punktów przypisanych do atrybutu i przekazywania ich z powrotem do puli.
+3. Napisz program Kto jest twoim tatą?, który umożliwia użytkownikowi
+wprowadzenie imienia i nazwiska osoby płci męskiej i przedstawia imię
+i nazwisko jej ojca. (Możesz dla zabawy wykorzystać nazwiska celebrytów,
+osób fikcyjnych lub nawet postaci historycznych). Umożliw użytkownikowi
+dodawanie, wymianę i usuwanie par syn-ojciec.
+4. Udoskonal program Kto jest moim tatą? poprzez dodanie opcji, która umożliwi
+użytkownikowi wprowadzenie imienia i (lub) nazwiska jakiejś osoby i uzyskanie
+odpowiedzi, kto jest jej dziadkiem. Twój program powinien nadal wykorzystywać
+tylko jeden słownik par syn-ojciec. Pamiętaj, aby włączyć do swojego słownika
+kilka pokoleń, tak aby możliwe było tego rodzaju dopasowanie.
+
+
+1. Popraw funkcję ask_number() w taki sposób, aby mogła być wywoływana
+z wartością kroku. Spraw, aby domyślną wartością kroku była liczba 1.
+2. Zmodyfikuj projekt Jaka to liczba? z rozdziału 3. przez użycie w nim funkcji
+ask_number().
+
+3. Zmodyfikuj nową wersję gry Jaka to liczba?, którą utworzyłeś w ramach
+poprzedniego zadania, tak aby kod programu znalazł się w funkcji o nazwie
+main(). Nie zapomnij o wywołaniu funkcji main() w celu uruchomienia gry.
+
+4. Napisz nową funkcję computer_move() do gry Kółko i krzyżyk, aby zlikwidować
+lukę w strategii komputera. Sprawdź, czy potrafisz utworzyć przeciwnika, który
+będzie nie do pobicia.
+
+
+1. Ulepsz grę Turniej wiedzy w taki sposób, aby każde pytanie miało przypisaną
+indywidualnie określoną wartość punktową. Wynik uzyskany przez gracza
+powinien stanowić sumę wartości punktowych wszystkich pytań, na które gracz
+odpowiedział poprawnie.
+
+2. Ulepsz grę Turniej wiedzy w taki sposób, aby w pliku była utrzymywana lista
+najlepszych wyników. Program powinien rejestrować nazwę gracza i jego wynik,
+jeśli ten mieści się na liście. Przechowuj najlepsze wyniki przy użyciu
+„zamarynowanego” obiektu.
+
+3. Zmień sposób implementacji obsługi listy najlepszych wyników, którą utworzyłeś
+w poprzednim zadaniu. Tym razem do przechowywania listy użyj zwykłego
+pliku tekstowego.
+
+4. Utwórz odcinek gry kwizowej, która testuje wiedzę gracza o obsłudze plików
+i wyjątków.
+
+
+1. Ulepsz program Opiekun zwierzaka, pozwalając użytkownikowi na określenie
+ilości pożywienia podawanego zwierzakowi i czasu poświęconego na zabawę
+z nim. Wartości te powinny wpływać na szybkość spadku poziomu głodu
+i nudy u zwierzaka.
+
+2. Napisz program, który symuluje telewizor, tworząc go jako obiekt. Użytkownik
+powinien mieć możliwość wprowadzenia numeru kanału oraz zwiększenia
+bądź zmniejszenia głośności. Zastosuj mechanizm zapewniający utrzymywanie
+numeru kanału i poziomu głośności we właściwych zakresach.
+
+3. Utwórz w programie Opiekun zwierzaka mechanizm „tylnych drzwi”,
+który pokazuje dokładne wartości atrybutów obiektu. Zrealizuj to poprzez
+wyświetlenie obiektu po wprowadzeniu przez użytkownika ukrytej wartości,
+która nie została uwzględniona w menu. (Wskazówka: dodaj specjalną metodę
+__str__() do klasy Critter).
+
+4. Utwórz program Farma zwierzaków, konkretyzując kilka obiektów klasy
+Critter i śledząc ich stan poprzez listę. Naśladuj program Opiekun zwierzaka,
+lecz zamiast wymagać od użytkownika zajmowania się pojedynczym zwierzakiem,
+zażądaj od niego opieki nad całą farmą. Każda pozycja menu powinna umożliwić
+użytkownikowi wykonanie pewnej czynności obejmującej wszystkie zwierzaki
+(„nakarm wszystkie zwierzaki”, „pobaw się ze wszystkimi zwierzakami” czy
+„słuchaj wszystkich zwierzaków”). Aby program był ciekawszy, nadaj każdemu
+zwierzakowi wybrany losowo początkowy poziom głodu i nudy.
+
+
+1. Dodaj do gry Blackjack pewne bardzo potrzebne elementy kontroli błędów.
+Przed rozpoczęciem nowej rundy upewnij się, że talia zawiera wystarczającą
+liczbę kart. Jeśli tak nie jest, ponownie dołącz do niej komplet kart i potasuj jej
+zawartość. Znajdź też inne miejsca, w których mógłbyś dodać sprawdzanie
+błędów, i utwórz niezbędne zabezpieczenia. 2. Napisz jednokartową wersję gry w wojnę, 
+w której każdy otrzymuje jedną kartę i gracz z najwyższą kartą wygrywa.
+
+3. Ulepsz projekt Blackjack, umożliwiając graczom stawianie pieniędzy. Śledź
+budżety wszystkich graczy i usuwaj każdego gracza, któremu skończą się
+pieniądze.
+
+4. Stwórz prostą grę przygodową wykorzystującą obiekty, w której gracz może
+podróżować pomiędzy różnymi, wzajemnie połączonymi miejscami.
+
+
+
+1. Napisz swoją własną wersję programu Mad Lib, wykorzystując inny układ
+widżetów.
+
+2. Napisz wersję programu Jaka to liczba?, stanowiącego projekt rozdziału 3.,
+która wykorzystuje interfejs GUI.
+
+3. Utwórz program z interfejsem GUI o nazwie Złóż zamówienie!, który
+przedstawia użytkownikowi proste restauracyjne menu, które wymienia
+pozycje i ich ceny. Pozwól użytkownikowi na wybranie różnych pozycji,
+a potem pokaż mu końcowy rachunek.
